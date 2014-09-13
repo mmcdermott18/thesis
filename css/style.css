@@ -1,21 +1,32 @@
 	* {
-		font-family: 'Messenger Text', sans-serif;
+		font-family: 'Fira Sans', sans-serif;
+		font-weight: 300;
 	}
 	html {
 		margin-bottom: 15px;
+		background-color: whitesmoke;
 	}
 	h1 {
-		font-family: 'Messenger Mono', sans-serif;
+		font-family: 'Fira Mono', monospace;
 		font-size: 1.2em;
-		color: DodgerBlue;
-		font-weight: normal;
+		color: tomato;
+		font-weight: 400;
+		letter-spacing: 1px;
 	}
 	p {
     	padding-left: 0px;
     	margin-top: 0px;
     	font-size: 1em;
     	line-height: 1.4em;
-    	color: DimGray;
+    	color: dimgray;
+	}
+	span {
+		background-color: white;
+		padding-left: 0px 2px;
+	}
+	.smallspace {
+		background-color: initial;
+		padding: 0px 2px;
 	}
 	img {
 		width: 22.5%;
@@ -55,23 +66,28 @@
 		text-decoration: none;
 	}
 	a:link {
-		color: Orange;
+		color: royalblue;
 		text-decoration: none;
 	}     
 	a:visited {
-		color: Orange;
+		color: royalblue;
 		text-decoration: none;
 	}  
 	a:hover {
-		color: OrangeRed;
+		color: royalblue;
 		text-decoration: none;
+		display: inline-block;
+		line-height: 1em;
+		border-bottom: 1px dotted royalblue;
 	}  
 	a:active {
-		color: OrangeRed;
+		color: royalblue;
 		text-decoration: none;
 		}
 	strong {
-		font-weight: normal;
+		font-family: 'Fira Mono', monospace;
+		font-size: .8em;
+		font-weight: 700;
 		color: black;
 	}
 	ul {
@@ -80,7 +96,7 @@
     	margin-top: 0px;
     	font-size: 1em;
     	line-height: 1.4em;
-    	color: DimGray;
+    	color: dimgray;
 	}​
 	li {
 		list-style-type: none;
@@ -99,20 +115,10 @@
 		width: 33%;
 		float: left;
 	}
-	.toptwothird {
-		width: 66%;
-		float: left;
-		/*border-bottom: 1px dotted DodgerBlue;*/
-	}
-	.toponethird {
-		width: 33%;
-		float: left;
-		/*border-bottom: 1px dotted DodgerBlue;*/
-	}
 	.whole {
 		width: 100%;
 		float: left;
-		border-bottom: 1px dotted DodgerBlue;
+		border-bottom: 1px dotted tomato;
 	}
 	.home {
 		position: absolute;
@@ -127,6 +133,9 @@
 		left: -44px;
 		-webkit-transform: rotate(-90deg);
 	}
+	.colophon {
+		display: none;
+	}
 
 	@media only screen and (max-width: 1050px) {
 		#container {
@@ -137,11 +146,15 @@
 			width: 100%;
 			float: none;
 			clear: both;
-			border-bottom: 1px dotted DodgerBlue;
+			border-bottom: 1px dotted tomato;
 		}
 		.whole {
 			width: 100%;
-			float: left;
+			float: none;
 			border-bottom: none;
+		}
+		.colophon {
+			width: 100%;
+			display: block;
 		}
 	}
