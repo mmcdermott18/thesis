@@ -6,12 +6,22 @@
 		margin-bottom: 15px;
 		background-color: whitesmoke;
 	}
+	body {
+		margin: 0;
+	}
+	header {
+		background-color: tomato;
+	}
 	h1 {
 		font-family: 'Fira Mono', monospace;
 		font-size: 1.2em;
 		color: tomato;
 		font-weight: 400;
 		letter-spacing: 1px;
+	}
+	header h1 {
+		margin: 0;
+		color: whitesmoke;
 	}
 	p {
     	padding-left: 0px;
@@ -107,6 +117,11 @@
 	li.sec {
 		padding-left: 10px;
 	}
+	.align {
+		width: 90%;
+		margin: 0 auto;
+		padding: 15px 0;
+	}
 	#container {
 		width: 90%;
 		margin: 0 auto;
@@ -138,6 +153,10 @@
 	}
 
 	@media only screen and (max-width: 1050px) {
+		.align {
+			width: 85%;
+			margin: 0 auto;
+		}
 		#container {
 			width: 85%;
 			margin: 0 auto;
