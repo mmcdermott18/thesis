@@ -6,9 +6,16 @@
 	}
 	h1 {
 		font-family: 'Messenger Mono', sans-serif;
-		font-size: 16px;
+		font-size: 1.2em;
 		color: DodgerBlue;
 		font-weight: normal;
+	}
+	p {
+    	padding-left: 0px;
+    	margin-top: 0px;
+    	font-size: 1em;
+    	line-height: 1.4em;
+    	color: DimGray;
 	}
 	img {
 		width: 22.5%;
@@ -71,8 +78,8 @@
     	list-style: none;
     	padding-left: 0px;
     	margin-top: 0px;
-    	font-size: 14px;
-    	line-height: 1.3em;
+    	font-size: 1em;
+    	line-height: 1.4em;
     	color: DimGray;
 	}​
 	li {
@@ -85,7 +92,7 @@
 		padding-left: 10px;
 	}
 	#container {
-		width: 95%;
+		width: 90%;
 		margin: 0 auto;
 	}
 	.third {
@@ -119,4 +126,22 @@
 		top: 80px;
 		left: -44px;
 		-webkit-transform: rotate(-90deg);
+	}
+
+	@media only screen and (max-width: 1050px) {
+		#container {
+			width: 85%;
+			margin: 0 auto;
+		}
+		.third {
+			width: 100%;
+			float: none;
+			clear: both;
+			border-bottom: 1px dotted DodgerBlue;
+		}
+		.whole {
+			width: 100%;
+			float: left;
+			border-bottom: none;
+		}
 	}
