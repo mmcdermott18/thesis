@@ -75,6 +75,27 @@
 	a {
 		text-decoration: none;
 	}
+	a.headerlink:link {
+		color: whitesmoke;
+		font-family: 'Fira Mono', monospace;
+		font-weight: 400;
+		text-decoration: none;
+	}     
+	a.headerlink:visited {
+		color: whitesmoke;
+		text-decoration: none;
+	}  
+	a.headerlink:hover {
+		color: whitesmoke;
+		text-decoration: none;
+		/*display: inline-block;
+		line-height: 1em;*/
+		border-bottom: 1px dotted whitesmoke;
+	}  
+	a.headerlink:active {
+		color: whitesmoke;
+		text-decoration: none;
+		}
 	a:link {
 		color: royalblue;
 		text-decoration: none;
