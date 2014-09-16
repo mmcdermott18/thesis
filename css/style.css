@@ -1,198 +1,206 @@
-	* {
-		font-family: 'Fira Sans', sans-serif;
-		font-weight: 300;
+* {
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+}
+html {
+	margin-bottom: 15px;
+	background-color: whitesmoke;
+}
+body {
+	margin: 0;
+}
+header {
+	background-color: tomato;
+	z-index: 3;
+	clear: both;
+}
+h1 {
+	font-family: 'Fira Mono', monospace;
+	font-size: 1.2em;
+	color: tomato;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+header h1 {
+	margin: 0;
+	color: whitesmoke;
+}
+p {
+	padding-left: 0px;
+	margin-top: 0px;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: dimgray;
+}
+span {
+	background-color: white;
+	padding-left: 0px 2px;
+}
+.smallspace {
+	background-color: initial;
+	padding: 0px 2px;
+}
+img {
+	
+}
+img.full {
+	margin-top: 15px;
+	width: 100%;
+}
+img.ad {
+	width: 210px;
+	height: 600px;
+}
+img.ad1 {
+	width: 1225px !important;
+	height: 125px !important;
+}
+img.ad2 {
+	width: 300px !important;
+	height: 250px !important;
+}
+img.ad3 {
+	width: 596px !important;
+	height: 110px !important;
+}
+img.ad4 {
+	width: 400px !important;
+	height: 190px !important;
+}
+a {
+	text-decoration: none;
+}
+a.nounderline:hover {
+	border-bottom: none;
+}
+a.headerlink:link {
+	color: whitesmoke;
+	font-family: 'Fira Mono', monospace;
+	font-weight: 400;
+	text-decoration: none;
+}     
+a.headerlink:visited {
+	color: whitesmoke;
+	text-decoration: none;
+}  
+a.headerlink:hover {
+	color: whitesmoke;
+	text-decoration: none;
+	/*display: inline-block;
+	line-height: 1em;*/
+	border-bottom: 1px dotted whitesmoke;
+}  
+a.headerlink:active {
+	color: whitesmoke;
+	text-decoration: none;
 	}
-	html {
-		margin-bottom: 15px;
-		background-color: whitesmoke;
+a:link {
+	color: royalblue;
+	text-decoration: none;
+}     
+a:visited {
+	color: royalblue;
+	text-decoration: none;
+}  
+a:hover {
+	color: royalblue;
+	text-decoration: none;
+	display: inline-block;
+	line-height: 1em;
+	border-bottom: 1px dotted royalblue;
+}  
+a:active {
+	color: royalblue;
+	text-decoration: none;
 	}
-	body {
-		margin: 0;
-	}
-	header {
-		background-color: tomato;
-		z-index: 3;
-		clear: both;
-	}
-	h1 {
-		font-family: 'Fira Mono', monospace;
-		font-size: 1.2em;
-		color: tomato;
-		font-weight: 400;
-		letter-spacing: 1px;
-	}
-	header h1 {
-		margin: 0;
-		color: whitesmoke;
-	}
-	p {
-    	padding-left: 0px;
-    	margin-top: 0px;
-    	font-size: 1em;
-    	line-height: 1.4em;
-    	color: dimgray;
-	}
-	span {
-		background-color: white;
-		padding-left: 0px 2px;
-	}
-	.smallspace {
-		background-color: initial;
-		padding: 0px 2px;
-	}
-	img {
-		
-	}
-	img.full {
-		margin-top: 15px;
-		width: 100%;
-    }
-	img.ad {
-		width: 210px;
-		height: 600px;
-	}
-	img.ad1 {
-		width: 1225px !important;
-		height: 125px !important;
-	}
-	img.ad2 {
-		width: 300px !important;
-		height: 250px !important;
-	}
-	img.ad3 {
-		width: 596px !important;
-		height: 110px !important;
-	}
-	img.ad4 {
-		width: 400px !important;
-		height: 190px !important;
-	}
-	a {
-		text-decoration: none;
-	}
-	a.nounderline:hover {
-		border-bottom: none;
-	}
-	a.headerlink:link {
-		color: whitesmoke;
-		font-family: 'Fira Mono', monospace;
-		font-weight: 400;
-		text-decoration: none;
-	}     
-	a.headerlink:visited {
-		color: whitesmoke;
-		text-decoration: none;
-	}  
-	a.headerlink:hover {
-		color: whitesmoke;
-		text-decoration: none;
-		/*display: inline-block;
-		line-height: 1em;*/
-		border-bottom: 1px dotted whitesmoke;
-	}  
-	a.headerlink:active {
-		color: whitesmoke;
-		text-decoration: none;
-		}
-	a:link {
-		color: royalblue;
-		text-decoration: none;
-	}     
-	a:visited {
-		color: royalblue;
-		text-decoration: none;
-	}  
-	a:hover {
-		color: royalblue;
-		text-decoration: none;
-		display: inline-block;
-		line-height: 1em;
-		border-bottom: 1px dotted royalblue;
-	}  
-	a:active {
-		color: royalblue;
-		text-decoration: none;
-		}
-	strong {
-		font-family: 'Fira Mono', monospace;
-		font-size: .8em;
-		font-weight: 700;
-		color: black;
-	}
-	ul {
-    	list-style: none;
-    	padding-left: 0px;
-    	margin-top: 0px;
-    	font-size: 1em;
-    	line-height: 1.4em;
-    	color: dimgray;
-	}​
-	li {
-		list-style-type: none;
-	}
-	li.pro {
-		/*font-weight: bold;*/
-	}
-	li.sec {
-		padding-left: 10px;
-	}
+strong {
+	font-family: 'Fira Mono', monospace;
+	font-size: .8em;
+	font-weight: 700;
+	color: black;
+}
+ul {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0px;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: dimgray;
+}​
+li {
+	list-style-type: none;
+}
+li.pro {
+	/*font-weight: bold;*/
+}
+li.sec {
+	padding-left: 10px;
+}
+.align {
+	width: 90%;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+.third {
+	width: 33%;
+	float: left;
+}
+.whole {
+	width: 100%;
+	float: left;
+	border-bottom: 1px dotted tomato;
+}
+.home {
+	position: absolute;
+	top: 20px;
+	left: -5px;
+	-webkit-transform: rotate(-90deg);
+	z-index: 999;
+}
+.name {
+	position: absolute;
+	top: 80px;
+	left: -52px;
+	-webkit-transform: rotate(-90deg);
+}
+.colophon {
+	display: none;
+}
+
+@media only screen and (max-width: 1050px) {
 	.align {
-		width: 90%;
+		width: 85%;
 		margin: 0 auto;
-		padding: 15px 0;
 	}
 	#container {
-		width: 90%;
+		width: 85%;
 		margin: 0 auto;
 	}
 	.third {
-		width: 33%;
-		float: left;
+		width: 100%;
+		float: none;
+		clear: both;
+		border-bottom: 1px dotted tomato;
 	}
 	.whole {
 		width: 100%;
-		float: left;
-		border-bottom: 1px dotted tomato;
-	}
-	.home {
-		position: absolute;
-		top: 20px;
-		left: -5px;
-		-webkit-transform: rotate(-90deg);
-		z-index: 999;
-	}
-	.name {
-		position: absolute;
-		top: 80px;
-		left: -52px;
-		-webkit-transform: rotate(-90deg);
+		float: none;
+		border-bottom: none;
 	}
 	.colophon {
-		display: none;
+		width: 100%;
+		display: block;
 	}
-
-	@media only screen and (max-width: 1050px) {
-		.align {
-			width: 85%;
-			margin: 0 auto;
-		}
-		#container {
-			width: 85%;
-			margin: 0 auto;
-		}
-		.third {
-			width: 100%;
-			float: none;
-			clear: both;
-			border-bottom: 1px dotted tomato;
-		}
-		.whole {
-			width: 100%;
-			float: none;
-			border-bottom: none;
-		}
-		.colophon {
-			width: 100%;
-			display: block;
-		}
-	}
+}
+#slide1 {
+	height: 100%;
+	background-color: tomato;
+}
+#slide2 {
+	height: 100%;
+	background-color: royalblue;
+}
