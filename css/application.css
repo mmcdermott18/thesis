@@ -59,6 +59,10 @@ table {
   width: 0;
   height: 0; }
 
+html#legible {
+  margin: 0;
+  background: white;
+}
 body {
   background: #eaeaea;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
@@ -68,125 +72,144 @@ a {
   color: inherit;
   text-decoration: none; }
 
-footer {
-  padding: 50px;
-  text-align: center; }
-  footer p {
-    color: #555;
-    font: 400 16px/1 "open sans";
-    margin: 0 0 2em 0; }
-    footer p a {
-      color: #555;
-      font-weight: 700; }
-      footer p a:hover {
-        color: #000; }
+#container-simon {
+  width: 100%;
+}
 
-.sample#title {
-  background: #fff;
-  padding: 125px 0 250px 0; }
-  .sample#title .text {
+#slide1 {
+  background: tomato;
+  padding: 250px 0; }
+#slide1 .text {
     margin: 0 auto;
-    width: 800px; }
-  .sample#title h1 {
+    width: 1080px; }
+#slide1 h1 {
     color: #000;
     font: 400 87px/84px Abril Fatface; }
-    .sample#title h1 span.kern {
+#slide1 h1 span.kern {
       margin: 0 0 0 -5px; }
-  .sample#title h2 {
-    color: #666;
+#slide1 h2 {
+    color: #000;
     font: 300 18px/24px "open sans";
-    margin: 0 0 36px 175px;
-    width: 650px; }
-    .sample#title h2 a:hover {
-      color: #222;
-      font-weight: 700; }
-  .sample#title p, .sample#title ul {
-    color: #666;
-    float: left;
-    font: 400 13px/21px "open sans";
-    margin: 0 50px 0 0;
-    width: 450px; }
-  .sample#title ul {
-    margin: 0;
-    position: relative;
-    top: -2px;
-    width: 300px; }
-    .sample#title ul li {
-      font-size: 11px;
-      text-transform: uppercase; }
-      .sample#title ul li:before {
-        content: "\00d7";
-        font-size: 15px;
-        font-weight: 700;
-        left: -2px;
-        position: relative;
-        top: 2px; }
-      .sample#title ul li a:hover {
-        color: #222;
-        font-weight: 700; }
-.sample#herzog {
+    margin: 0 0 36px 150px;
+    width: 250px; }
+#slide2 {
+  background: white;
+  padding: 250px 0; }
+#slide2 #gallery {
+  width: 732px;
+  margin: 0 auto; }
+#slide2 #photo {
+  width: 500px;
+  height: 400px;
+  border: 6px black solid;
+  margin: 0 20px 0 0;
+  float: left; }
+#slide2 .caption {
+  width: 200px;
+  margin-top: 250px;
+  float: left;
+}
+#slide2 .caption1 {
+  width: 200px;
+  height: 3px;
+  background: black;
+  margin: 2px 0 0 0; }
+#slide2 .caption2 {
+  width: 140px;
+  height: 3px;
+  background: black;
+  margin: 2px 0 10px 0; }
+
+
+#slide3 {
   background: #2A2C39;
   padding: 250px 0; }
-  .sample#herzog .text {
+  #slide3 .text {
     margin: 0 auto;
     padding: 0 20px;
     width: 800px; }
-  .sample#herzog h2 {
+  #slide3 h2 {
     color: #E9E9EB;
     font: 400 36px/1.4 "cardo";
     font-style: italic;
     margin: 0 0 20px 0;
-    text-align: left;
+    text-align: center;
     text-indent: -10px; }
-  .sample#herzog h3 {
+  #slide3 h3 {
     color: #fff;
     font: 400 36px/1.4 "cardo";
     margin: 0 0 20px 0;
-    text-align: left;
+    text-align: center;
     text-indent: -32px; }
-    .sample#herzog h3 em {
-      font-style: italic; }
-.sample#nietzsche {
-  background: #ef4723;
-  padding: 100px 0; }
-  .sample#nietzsche .text {
+  #slide3 .space {
+    margin: 0 8px 0 5px;
+    position: relative;
+    top: 2px;
+    background: none;
+  }
+  .slide4 {
+    background: white;
+    padding: 250px 0;
+  }
+  .slide4 #images1 {
+    width: 1513px;
+    margin: 5px auto;
+  }
+  .slide4 #images2 {
+    width: 1028px;
+    margin: 10px auto;
+  }
+  .slide4 #images3 {
+    width: 1740px;
+    margin: 10px auto;
+  }
+  .slide4 img {
+    height: 250px;
+    margin: 0 5px;
+  }
+  #slide5 {
+    background: lightsalmon;
+    padding: 100px 0; }
+  #slide5 .text {
     margin: 0 auto;
     padding: 0 20px;
     width: 800px; }
-  .sample#nietzsche .excerpt {
+  #slide5 .excerpt {
     -moz-column-count: 2;
     -moz-column-gap: 50px;
     -webkit-column-count: 2;
     -webkit-column-gap: 50px; }
-  .sample#nietzsche h1 {
+  #slide5 h1 {
     color: #222;
     font: 800 64px/64px "open sans";
     margin: 0 0 32px 0;
     text-align: center;
     text-transform: uppercase;
     width: 800px; }
-    .sample#nietzsche h1 span {
+    #slide5 h1 span {
       font: 400 60px/60px "gentium book basic";
       font-style: italic;
-      text-transform: none; }
-      .sample#nietzsche h1 span.kern {
+      text-transform: none;
+      background: none; }
+      #slide5 h1 span.kern {
         margin: 0 4px 0 -10px; }
-  .sample#nietzsche h2 {
+  #slide5 h2 {
     border-top: 1px solid #222222;
     color: #222;
     font: 800 20px/20px "open sans";
     margin: 0 0 20px 0;
     text-align: center;
     text-transform: uppercase; }
-    .sample#nietzsche h2 span {
+    #slide5 h2 span {
       background: #ef4723;
       padding: 0 20px;
       position: relative;
       top: -10px; }
-  .sample#nietzsche p {
+  #slide5 p {
     color: #222;
     font: 400 16px/24px "gentium book basic";
     margin: 0; }
+
 .sample#bringhurst {
   background: #fcfaf2;
   padding: 350px 0; }
@@ -206,31 +229,31 @@ footer {
     letter-spacing: 1px;
     text-transform: uppercase;
     text-indent: -13px; }
-.sample#thin {
+#slide7 {
   background: #0ac5f4;
   padding: 200px 0; }
-  .sample#thin .text {
+  #slide7 .text {
     margin: 0 auto;
     padding: 0 20px;
     text-align: left;
     width: 800px; }
-  .sample#thin li {
+  #slide7 li {
     color: #fff;
     font: 100 92px/1 "lato";
     text-transform: uppercase; }
-    .sample#thin li .kern {
+    #slide7 li .kern {
       margin: 0 0 0 6px; }
-    .sample#thin li:nth-child(1) {
+    #slide7 li:nth-child(1) {
       opacity: 0.3; }
-    .sample#thin li:nth-child(2) {
+    #slide7 li:nth-child(2) {
       opacity: 0.4; }
-    .sample#thin li:nth-child(3) {
+    #slide7 li:nth-child(3) {
       opacity: 0.5; }
-    .sample#thin li:nth-child(4) {
+    #slide7 li:nth-child(4) {
       opacity: 0.6; }
-    .sample#thin li:nth-child(5) {
+    #slide7 li:nth-child(5) {
       opacity: 0.7; }
-    .sample#thin li:nth-child(6) {
+    #slide7 li:nth-child(6) {
       opacity: 0.8; }
 .sample#nabokov {
   background: rgba(133, 135, 141, 0.7);

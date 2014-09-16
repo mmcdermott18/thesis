@@ -13,6 +13,7 @@ header {
 	background-color: tomato;
 	z-index: 3;
 	clear: both;
+	border-bottom: 3px white solid;
 }
 h1 {
 	font-family: 'Fira Mono', monospace;
@@ -195,12 +196,4 @@ li.sec {
 		width: 100%;
 		display: block;
 	}
-}
-#slide1 {
-	height: 100%;
-	background-color: tomato;
-}
-#slide2 {
-	height: 100%;
-	background-color: royalblue;
 }
