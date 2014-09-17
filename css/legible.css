@@ -101,7 +101,7 @@ a {
 }
 #slide1 .reveal {
   color: tomato;   
-  -webkit-transition: color 5s;
+  -webkit-transition: color ease-out 5s;
 }
 
 #slide1 .reveal:hover {
@@ -231,7 +231,7 @@ a {
 }
 
 .slide4 #images8 {
-  width: 367px;
+  width: 734px;
   margin: 0 auto;
   -webkit-transition: transform 10s;
 }
@@ -250,6 +250,10 @@ a {
   margin: 0 5px;
 }
 
+.slide4 .selfie {
+  height: 500px;
+  margin: 0 5px;
+}
 /*-----------------------------------SLIDE 5 -------------------------------*/
 
 #slide5 {
@@ -309,12 +313,12 @@ a {
 #slide9 .text {
   margin: 0 auto;
   padding: 0 20px;
-  width: 300px; 
+  width: 386px; 
 }
 
 #slide9 h1 {
   color: #333;
-  font: 400 20px/30px "gentium book basic";
+  font: 700 24px/1.4em "gentium book basic";
   font-style: italic;
   margin: 0 0 10px 0;
   text-indent: -7px; 
