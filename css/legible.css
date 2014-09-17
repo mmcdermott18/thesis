@@ -317,7 +317,7 @@ a {
 #slide5 .text {
   margin: 0 auto;
   padding: 0 20px;
-  width: 800px; 
+  width: 970px; 
 }
 
 #slide5 h1 {
@@ -326,7 +326,6 @@ a {
   margin: 0 0 32px 0;
   text-align: center;
   text-transform: uppercase;
-  width: 800px; 
 }
 
 #slide5 h1 span {
