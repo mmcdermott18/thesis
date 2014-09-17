@@ -410,4 +410,11 @@ a {
   color: black;
   font: 800 64px/1em "open sans";
   text-align: center;
+  margin: 0 0 100px 0;
+}
+
+#slide13 p {
+  color: black;
+  font: 400 12px/1.4em "open sans";
+  text-align: left;
 }
