@@ -80,6 +80,12 @@ a {
   width: 100%;
 }
 
+@media only screen and (max-width: 1440px) {
+  .hide {
+    display: none;
+  }
+}
+
 /*----------------------------------- SLIDE 2 -------------------------------*/
 
 #slide1 {
@@ -233,7 +239,7 @@ a {
 .slide4 #images8 {
   width: 734px;
   margin: 0 auto;
-  -webkit-transition: transform 10s;
+  -webkit-transition: transform 5s;
 }
 
 .slide4 #images8:hover {
@@ -253,6 +259,47 @@ a {
 .slide4 .selfie {
   height: 500px;
   margin: 0 5px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .slide4 #images1 {
+    width: 1122px;
+    margin: 5px auto;
+  }
+
+  .slide4 #images2 {
+    width: 1028px;
+    margin: 10px auto;
+  }
+
+  .slide4 #images3 {
+    width: 1393px;
+    margin: 10px auto;
+  }
+
+  .slide4 #images4 {
+    width: 1291px;
+    margin: 5px auto;
+  }
+
+  .slide4 #images5 {
+    width: 1067px;
+    margin: 10px auto;
+  }
+
+  .slide4 #images6 {
+    width: 957px;
+    margin: 5px auto;
+  }
+
+  .slide4 #images7 {
+    width: 1142px;
+    margin: 10px auto;
+  }
+  .slide4 #images9 {
+    width: 1333px;
+    margin: 10px auto;
+  }
 }
 /*-----------------------------------SLIDE 5 -------------------------------*/
 
