@@ -95,7 +95,7 @@ a {
 
 #slide1 .text {
     margin: 0 auto;
-    width: 1209px; 
+    width: 1250px; 
   }
 
 #slide1 h1 {
@@ -108,6 +108,7 @@ a {
 #slide1 .reveal {
   color: tomato;   
   -webkit-transition: color ease-out 5s;
+  transition: color ease-out 5s;
 }
 
 #slide1 .reveal:hover {
@@ -246,10 +247,12 @@ a {
   width: 734px;
   margin: 0 auto;
   -webkit-transition: transform 5s;
+  transition: transform 5s;
 }
 
 .slide4 #images8:hover {
   -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .slide4 #images9 {
