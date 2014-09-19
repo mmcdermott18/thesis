@@ -80,13 +80,7 @@ a {
   width: 100%;
 }
 
-@media only screen and (max-width: 1440px) {
-  .hide {
-    display: none;
-  }
-}
-
-/*----------------------------------- SLIDE 2 -------------------------------*/
+/*----------------------------------- SLIDE 1 -------------------------------*/
 
 #slide1 {
   background: tomato;
@@ -123,6 +117,41 @@ a {
   color: black;
   font: 900 24px/84px "open sans";
   text-align: center;
+}
+
+@media only screen and (max-width: 1300px) {
+#slide1 {
+  background: tomato;
+  padding: 50px 0;
+}
+
+#slide1 .text {
+    margin: 0 auto;
+    width: 80%; 
+}
+
+#slide1 h1 {
+    color: black;
+    font: 900 5vw/5vw "open sans";
+    text-align: center;
+}
+#slide1 span {
+  background: none;
+}
+
+#slide1 .reveal {
+  color: black;   
+}
+
+#slide1 h1 span.kern {
+  margin: 0 0 0 -5px; 
+}
+
+#slide1 h2 {
+  color: black;
+  font: 900 4vw/8vw "open sans";
+  text-align: center;
+}
 }
 
 /*----------------------------------- SLIDE 2 -------------------------------*/
@@ -165,6 +194,43 @@ a {
   margin: 2px 0 10px 0; 
 }
 
+@media only screen and (max-width: 770px) {
+  #slide2 {
+  background: white;
+  padding: 50px 0; 
+}
+
+#slide2 #gallery {
+  width: 250px;
+  margin: 0 auto; 
+}
+
+#slide2 #photo {
+  width: 250px;
+  height: 150px;
+  border: 6px black solid;
+  margin: 0 auto; 
+}
+
+#slide2 .caption {
+  width: 200px;
+  margin-top: 25px;
+}
+
+#slide2 .caption1 {
+  width: 200px;
+  height: 3px;
+  background: black;
+  margin: 2px 0 0 0; 
+}
+
+#slide2 .caption2 {
+  width: 140px;
+  height: 3px;
+  background: black;
+  margin: 2px 0 10px 0; 
+}
+}
 /*----------------------------------- SLIDE 3 -------------------------------*/
 
 #slide3 {
@@ -173,9 +239,9 @@ a {
 }
 
 #slide3 .text {
+  width: 950px; 
   margin: 0 auto;
-  padding: 0 20px;
-  width: 800px; 
+  /*padding: 0 20px;*/
 }
 
 #slide3 h2 {
@@ -191,14 +257,49 @@ a {
   color: #fff;
   font: 400 36px/1.4 "gentium book basic";
   margin: 0 0 20px 0;
-  text-align: center;
-  text-indent: -32px; }
+  text-align: center; 
+}
 
 #slide3 .space {
-  margin: 0 8px 0 5px;
+  margin: 0 -2px 0 6px;
   position: relative;
   top: 2px;
   background: none;
+}
+@media only screen and (max-width: 950px) {
+  #slide3 {
+  background: #2A2C39;
+  padding: 50px 0; 
+}
+
+#slide3 .text {
+  width: 80%;
+  margin: 0 auto; 
+  overflow: hidden;
+}
+
+#slide3 h2 {
+  color: #E9E9EB;
+  font: 800 16px/1.4 "open sans";
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  text-align: center;
+  letter-spacing: 3px; 
+}
+
+#slide3 h3 {
+  color: #fff;
+  font: 400 24px/1.4 "gentium book basic";
+  margin: 0 0 20px 0;
+  text-align: center; 
+}
+
+#slide3 .space {
+  margin: 0 -3px 0 4px;
+  position: relative;
+  top: 2px;
+  background: none;
+}
 }
 
 /*----------------------------------- SLIDE 4 (6,8,10,12) -------------------------------*/
@@ -270,7 +371,11 @@ a {
   margin: 0 5px;
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1700px) {
+  .hide {
+    display: none;
+  }
+
   .slide4 #images1 {
     width: 1122px;
     margin: 5px auto;
@@ -309,6 +414,122 @@ a {
     width: 1333px;
     margin: 10px auto;
   }
+}
+
+@media only screen and (max-width: 1400px) {
+  .hide2 {
+    display: none;
+  }
+  .slide4 {
+    background: white;
+    padding: 100px 0;
+  }
+
+  .slide4 #images1 {
+    width: 733px;
+    margin: 5px auto;
+  }
+
+  .slide4 #images2 {
+    width: 684px;
+    margin: 10px auto;
+  }
+
+  .slide4 #images3 {
+    width: 717px;
+    margin: 10px auto;
+  }
+
+  .slide4 #images4 {
+    width: 713px;
+    margin: 5px auto;
+  }
+
+  .slide4 #images5 {
+    width: 608px;
+    margin: 10px auto;
+  }
+
+  .slide4 #images6 {
+    width: 749px;
+    margin: 5px auto;
+  }
+
+  .slide4 #images7 {
+    width: 777px;
+    margin: 10px auto;
+  }
+  .slide4 #images9 {
+    width: 800px;
+    margin: 10px auto;
+  }
+  .slide4 #images8 {
+    width: 367px;
+    margin: 0 auto;
+  }
+  .slide4 .selfie {
+    height: 250px;
+    margin: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .hide3 {
+    display: none;
+  }
+  .slide4 #images1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .slide4 #images2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .slide4 #images3 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .slide4 #images4 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .slide4 #images5 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .slide4 #images6 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .slide4 #images7 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .slide4 #images9 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .slide4 #images8 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .slide4 .selfie {
+    width: 100%;
+    height: initial;
+    margin: 0 5px;
+  }
+
+.slide4 img {
+  width: 100%;
+  height: initial;
+  margin: 5px 0;
+}
 }
 /*-----------------------------------SLIDE 5 -------------------------------*/
 
