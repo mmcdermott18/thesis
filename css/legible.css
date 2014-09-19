@@ -60,6 +60,7 @@ table {
   height: 0; 
 }
 html {
+  width: 100%;
   margin: 0;
   background: white;
 }
@@ -636,7 +637,7 @@ a {
 
   #slide7 li {
     color: #fff;
-    font: 100 8vw/8.4vw Lato;
+    font: 300 8vw/8.4vw Lato;
     text-transform: uppercase; 
   }
 
