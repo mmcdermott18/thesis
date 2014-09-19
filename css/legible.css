@@ -60,13 +60,13 @@ table {
   height: 0; 
 }
 html {
-  width: 100%;
+  min-width: 100%;
   margin: 0;
   background: white;
 }
 
 body {
-  width: 100%;
+  min-width: 100%;
   background: white;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   -webkit-text-size-adjust: 100%; 
@@ -82,22 +82,77 @@ a {
   margin: 0 auto;
 }
 
+/*----------------------------------- HEADER -------------------------------*/
+
+header {
+  background-color: tomato;
+  z-index: 3;
+  clear: both;
+  border-bottom: 3px white solid;
+}
+
 .align {
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   padding: 15px 0;
 }
 
-@media only screen and (max-width: 1050px) {
-  .align {
-    width: 100%;
-    margin: 0 auto;
-  }
-  #container {
-    width: 100%;
-    margin: 0 auto;
-  }
+h1 {
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  color: tomato;
+  font-weight: 400;
+  letter-spacing: 1px;
 }
+header h1 {
+  margin: 0;
+  color: whitesmoke;
+}
+
+a.headerlink:link {
+  color: whitesmoke;
+  font-family: 'Fira Mono', monospace;
+  font-weight: 400;
+  text-decoration: none;
+}     
+a.headerlink:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}  
+a.headerlink:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  /*display: inline-block;
+  line-height: 1em;*/
+  border-bottom: 1px dotted whitesmoke;
+}  
+a.headerlink:active {
+  color: whitesmoke;
+  text-decoration: none;
+  }
+
+/*----------------------------------- NORMAL LINKS -------------------------------*/
+
+a:link {
+  color: royalblue;
+  text-decoration: none;
+}     
+a:visited {
+  color: royalblue;
+  text-decoration: none;
+}  
+a:hover {
+  color: royalblue;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1em;
+  border-bottom: 1px dotted royalblue;
+}  
+a:active {
+  color: royalblue;
+  text-decoration: none;
+  }
 
 /*----------------------------------- SLIDE 1 -------------------------------*/
 
@@ -748,7 +803,7 @@ a {
 
 #slide13 h1 {
   color: black;
-  font: 800 64px/1em "open sans";
+  font: 800 64px/1.4em "open sans";
   text-align: center;
   margin: 0 0 100px 0;
 }
