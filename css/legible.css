@@ -62,7 +62,8 @@ table {
 
 
 body {
-  background: #eaeaea;
+  width: 100%;
+  background: white;
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   -webkit-text-size-adjust: 100%; 
 }
