@@ -559,6 +559,30 @@ a {
   background: none; 
 }
 
+@media only screen and (max-width: 1000px) {
+  #slide5 .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 90%; 
+  }
+
+  #slide5 h1 {
+    color: #222;
+    font: 800 5vw/5vw "open sans";
+    margin: 0 0 3vw 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #slide5 h1 span {
+    font: 400 4vw/4vw "gentium book basic";
+    font-style: italic;
+    text-transform: none;
+    background: none; 
+  }
+
+}
+
 /*----------------------------------- SLIDE 7 -------------------------------*/
 
 #slide7 {
@@ -577,6 +601,27 @@ a {
   color: #fff;
   font: 100 64px/1.2em Lato;
   text-transform: uppercase; 
+}
+
+@media only screen and (max-width: 1000px) {
+  #slide7 {
+  background: #0ac5f4;
+  padding: 50px 0; 
+  }
+
+  #slide7 .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+    width: 90%; 
+  }
+
+  #slide7 li {
+    color: #fff;
+    font: 100 8vw/8.4vw Lato;
+    text-transform: uppercase; 
+  }
+
 }
 
 /*----------------------------------- SLIDE 9 -------------------------------*/
@@ -599,7 +644,33 @@ a {
   margin: 0 0 10px 0;
   text-indent: -7px; 
 }
+@media only screen and (max-width:1000px) {
+  #slide9 {
+    background: lightgreen;
+    padding: 150px 0; 
+  }
+}
 
+@media only screen and (max-width:500px) {
+  #slide9 {
+  background: lightgreen;
+  padding: 50px 0; 
+}
+
+#slide9 .text {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 328px; 
+}
+
+#slide9 h1 {
+  color: #333;
+  font: 700 20px/1.4em "gentium book basic";
+  font-style: italic;
+  margin: 0 0 10px 0;
+  text-indent: -7px; 
+}
+}
 /*----------------------------------- SLIDE 11 -------------------------------*/
 
 #slide11 {
@@ -619,6 +690,27 @@ a {
   padding: 28px 0 0 0;
   text-indent: -11px; 
   color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  #slide11 {
+    background: darkslategray;
+    padding: 75px 0; 
+  }
+
+  #slide11 .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    width: 90%; 
+  }
+
+  #slide11 h1 {
+    font: 400 16px/1.4em "gentium book basic";
+    padding: 0 0 0 0;
+    text-indent: -8px; 
+    color: white;
+  }
 }
 
 /*----------------------------------- SLIDE 13 -------------------------------*/
@@ -647,3 +739,33 @@ a {
   font: 400 12px/1.4em "open sans";
   text-align: left;
 }
+
+@media only screen and (max-width: 710px) {
+  #slide13 {
+    background: lightgray;
+    padding: 50px 0; 
+  }
+
+  #slide13 .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+    width: 90%; 
+  }
+
+  #slide13 h1 {
+    color: black;
+    font: 800 48px/1.4em "open sans";
+    text-align: center;
+    margin: 0 0 25px 0;
+  }
+
+  #slide13 p {
+    color: black;
+    font: 400 12px/1.4em "open sans";
+    text-align: left;
+  }
+}
+
+
+
