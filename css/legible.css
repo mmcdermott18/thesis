@@ -81,6 +81,12 @@ a {
   margin: 0 auto;
 }
 
+.align {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+
 @media only screen and (max-width: 1050px) {
   .align {
     width: 100%;
