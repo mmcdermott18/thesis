@@ -59,7 +59,10 @@ table {
   width: 0;
   height: 0; 
 }
-
+html {
+  margin: 0;
+  background: white;
+}
 
 body {
   width: 100%;
