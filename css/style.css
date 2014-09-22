@@ -48,25 +48,10 @@ img.full {
 	margin-top: 15px;
 	width: 100%;
 }
-img.ad {
-	width: 210px;
-	height: 600px;
-}
-img.ad1 {
-	width: 1225px !important;
-	height: 125px !important;
-}
-img.ad2 {
-	width: 300px !important;
-	height: 250px !important;
-}
-img.ad3 {
-	width: 596px !important;
-	height: 110px !important;
-}
-img.ad4 {
-	width: 400px !important;
-	height: 190px !important;
+img.prints {
+	width: 23%;
+	margin: 1%;
+	float: left;
 }
 a {
 	text-decoration: none;
@@ -196,4 +181,9 @@ li.sec {
 		width: 100%;
 		display: block;
 	}
+	img.prints {
+	width: 48%;
+	margin: 1%;
+	float: left;
+}
 }
