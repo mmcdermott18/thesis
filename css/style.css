@@ -37,6 +37,10 @@ span {
 	background-color: white;
 	padding-left: 0px 2px;
 }
+span.strike {
+	background-color: whitesmoke;
+	text-decoration: line-through;
+}
 .smallspace {
 	background-color: initial;
 	padding: 0px 2px;
