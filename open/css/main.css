@@ -99,7 +99,7 @@ textarea {
 * { box-sizing: border-box; } 
 
 body {
-    font: 400 16px/1em 'Fira Sans', sans-serif;
+    font: 400 16px/1.2em 'Fira Sans', sans-serif;
     color: white;
     background-color: #333;
 }
