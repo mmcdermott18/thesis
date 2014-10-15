@@ -118,8 +118,9 @@ h6 {
     text-transform: uppercase;
 }
 #container {
-    width: 268px;
-    margin: 30vh auto;
+    width: 80%;
+    margin: 0 auto;
+
 }
 
 header {
@@ -130,14 +131,21 @@ footer {
     bottom: 0;
 }
 .main {
-    margin-top: 25px;
+    width: 268px;
+    margin: 30vh auto;
 }
+.inside {}
 .button {
     width: 104px;
     height: 36px;
     margin: 15px;
     border: 3px solid white;
     float: left;
+    transition: color .5s ease;
+    -webkit-transition: color .5s ease, border-color .5s ease;
+    -moz-transition: color .5s ease, border-color .5s ease;
+    -o-transition: color .5s ease, border-color .5s ease;
+    -ms-transition: color .5s ease, border-color .5s ease;
 }
 
 .button:hover {
@@ -148,6 +156,11 @@ footer {
     height: 36px;
     margin: 15px auto;
     border: 3px solid white;
+    transition: color .5s ease, border-color .5s ease;
+    -webkit-transition: color .5s ease, border-color .5s ease;
+    -moz-transition: color .5s ease, border-color .5s ease;
+    -o-transition: color .5s ease, border-color .5s ease;
+    -ms-transition: color .5s ease, border-color .5s ease;
 }
 .button-full:hover {
     border-color: tomato;
@@ -162,6 +175,28 @@ footer {
     width: 89.3333px;
     float: left;
 }
+.footer-link a:link {
+    color: white;
+    text-decoration: none;
+    transition: color .5s ease;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+}
+.footer-link a:visited {
+    color: white;
+    text-decoration: none;
+}
+.footer-link a:hover {
+    color: tomato;
+    text-decoration: none;
+}
+.footer-link a:active {
+    color: tomato;
+    text-decoration: none;
+}
+
 a:link {
     color: white;
     text-decoration: none;
@@ -302,7 +337,7 @@ a:active {
 
 @media only screen and (max-width: 1050px) {
     /* Style adjustments for viewports that meet the condition */
-    #container {
+    .main {
         width: 268px;
         margin: 10vh auto;
     }
