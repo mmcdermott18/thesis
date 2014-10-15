@@ -306,6 +306,17 @@ a:active {
         width: 268px;
         margin: 10vh auto;
     }
+    .button {
+        width: 111.5px;
+        margin: 7.5px 7.5px 7.5px 15px;
+    }
+    .resp {
+        margin: 7.5px 15px 7.5px 7.5px;
+    }
+    .button-full {
+        margin: 7.5px auto;
+        border: 3px solid white;
+    }
 }
 
 @media print,
