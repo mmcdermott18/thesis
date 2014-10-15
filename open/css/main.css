@@ -135,11 +135,21 @@ footer {
 .button {
     width: 104px;
     height: 36px;
-    margin: 14px;
+    margin: 15px;
     border: 3px solid white;
     float: left;
 }
+
 .button:hover {
+    border-color: tomato;
+}
+.button-full {
+    width: 238px;
+    height: 36px;
+    margin: 15px auto;
+    border: 3px solid white;
+}
+.button-full:hover {
     border-color: tomato;
 }
 .button-text {
@@ -168,7 +178,9 @@ a:active {
     color: tomato;
     text-decoration: none;
 }
-
+.tag {
+    text-align: center;    
+}
 
 
 
