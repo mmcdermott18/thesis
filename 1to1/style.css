@@ -1,0 +1,83 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width: 10800mm;
+	height: 2220mm;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container-print {
+	display: none;
+}
+.red {
+	width: 360mm;
+	height: 444mm;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: red;
+	color: red;
+}
+.orange {
+	width: 360mm;
+	height: 444mm;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: orange;
+}
+.yellow {
+	width: 360mm;
+	height: 444mm;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: yellow;
+}
+.green {
+	width: 360mm;
+	height: 444mm;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: green;
+}
+.blue {
+	width: 360mm;
+	height: 444mm;
+	float: left;
+	margin: 0;
+	padding: 0;
+	background: blue;
+}
+
+@page {
+  width: 210mm;
+  height: 297mm;
+  margin: 0;
+}
+
+@media print {
+
+	#container {
+		display: none;
+	}
+	#container-print {
+		display: block;
+		width: 6300mm;
+		height: 1485mm;
+	}
+	.red, .blue, .green, .yellow, .orange {
+		width: 360mm;
+		height: 444mm;
+		float: none;
+		clear: both;
+		-webkit-page-break-after: always;
+		page-break-after: always;
+	}
+}
