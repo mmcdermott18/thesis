@@ -63,13 +63,12 @@ h6 {
 }
 
 p {
-	text-align: justify;
 	font-size: 10pt;
 	line-height: 14pt;
 }
 
 span {
-	font-weight: bold;
+	color: dimgray;
 }
 span.strike {
 	background: white;
