@@ -1,6 +1,7 @@
 html, body {
 	margin: 0;
 	padding: 0;
+	font-family: helvetica, sans-serif;
 }
 
 #container {
@@ -14,51 +15,105 @@ html, body {
 #container-print {
 	display: none;
 }
-.red {
-	width: 360mm;
-	height: 444mm;
-	float: left;
-	margin: 0;
-	padding: 0;
-	background: red;
-	color: red;
+
+.title, .print, .about, .info {
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+	text-align: center;
 }
-.orange {
-	width: 360mm;
-	height: 444mm;
-	float: left;
-	margin: 0;
-	padding: 0;
-	background: orange;
+
+
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
 }
-.yellow {
-	width: 360mm;
-	height: 444mm;
-	float: left;
-	margin: 0;
-	padding: 0;
-	background: yellow;
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
 }
-.green {
-	width: 360mm;
-	height: 444mm;
-	float: left;
-	margin: 0;
-	padding: 0;
-	background: green;
+
+a:hover, a:active {
+	color: black;
+	text-decoration: none;
 }
+
+
+.kern {
+	letter-spacing: -3px;
+}
+
+.red,
+.orange,
+.yellow,
+.green,
 .blue {
 	width: 360mm;
 	height: 444mm;
 	float: left;
 	margin: 0;
 	padding: 0;
+}
+
+.red {
+	background: red;
+}
+.orange {
+	background: orange;
+}
+.yellow {
+	background: yellow;
+}
+.green {
+	background: green;
+}
+.blue {
 	background: blue;
 }
 
+h1 {
+	font-size: 48pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+h3 {
+	font-size: 14pt;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+h6 {
+	font-size: 8pt;
+	font-weight: bold;
+	margin-top: 40mm;
+}
+
+p {
+	font-size: 10pt;
+	line-height: 14pt;
+}
+
+.text span {
+	color: dimgray;
+}
+span.strike {
+	background: white;
+	color: white;
+}
+
+
 @page {
-  width: 210mm;
-  height: 297mm;
+  size: A4;
   margin: 0;
 }
 
@@ -72,6 +127,17 @@ html, body {
 		width: 6300mm;
 		height: 1485mm;
 	}
+
+	.text {
+		width: 115mm;
+  		height: 210mm;
+  		float: none;
+		clear: both;
+		-webkit-page-break-after: always;
+		page-break-after: always;
+		margin: 20mm 100mm;
+	}
+
 	.red, .blue, .green, .yellow, .orange {
 		width: 360mm;
 		height: 444mm;
