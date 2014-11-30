@@ -9,9 +9,14 @@
 <body>
 	<div id="container">
 		<div class="title"><h2>Jetset <span class="kern">1</span>:1</h2></div>
-		<div class="info"><h2>Scroll.</h2></div>
-		<div class="print"><h2><a onclick="window.print();">Print.</a></h2></div>
-		<div class="about"><h2><a href="http://www.experimentaljetset.nl/archive/kelly1-1" target="_blank">About.</a></h2></div>
+		<div class="info"><h2>Scroll around.</h2></div>
+		<!-- <div class="print"><h2><a onclick="window.print();">Print.</a></h2></div>
+		<div class="about"><h2><a href="http://www.experimentaljetset.nl/archive/kelly1-1" target="_blank">About.</a></h2></div> -->
+		<div class="nav">
+			<h4><a href="index.html">Jetset <span class="kern-small">1</span>:1</a></h4>
+			<h4><a href="#" onclick="window.print();">Print</a></h4>
+			<h4><a href="about/index.html">About</a></h4>
+		</div>
 			<div class="blue"></div>
 			<div class="blue"></div>
 			<div class="blue"></div>
@@ -339,34 +344,20 @@
 
         <script type="text/javascript">
 
-        $( document ).ready(function() {
-
-            //     console.log( "Document is ready!" );
+        	$( document ).ready(function() {
                 
-            //     $( "div.title" ).delay( 5000 ).fadeIn( 500 );
-            //     $( "div.title" ).delay( 5000 ).fadeOut( 500 );
-            //     $( "div.info" ).delay( 11000 ).fadeIn( 500 );
-            //     $( "div.info" ).delay( 5000 ).fadeOut( 500 );
-            //     $( "div.print" ).delay( 17000 ).fadeIn( 500 );
-            //     $( "div.print" ).delay( 5000 ).fadeOut( 500 );
-            //     $( "div.about" ).delay( 23000 ).fadeIn( 500 );
-            //     $( "div.about" ).delay( 5000 ).fadeOut( 500 );
+                $( "div.title" ).delay( 5000 ).fadeIn( 500 );
+                $( "div.title" ).delay( 5000 ).fadeOut( 500 );
+                $( "div.info" ).delay( 11000 ).fadeIn( 500 );
+                $( "div.info" ).delay( 5000 ).fadeOut( 500 );
+                // $( "div.print" ).delay( 17000 ).fadeIn( 500 );
+                // $( "div.print" ).delay( 5000 ).fadeOut( 500 );
+                // $( "div.about" ).delay( 23000 ).fadeIn( 500 );
+                // $( "div.about" ).delay( 5000 ).fadeOut( 500 );
+                $("div.nav" ).delay( 23000 ).fadeIn( 500 );
             	
-            // });
+            });
 
-        	var $elements = $('.title, .info, .print, .about');
-
-			function anim_loop(index) {
-		    // Get the element with that index and do the animation
-	    	$elements.eq(index).delay(5000).fadeIn(500).delay(5000).fadeOut(500, function() { 
-        	// Kind of recursive call, increasing the index and keeping in the range of valid indexes
-	        anim_loop((index + 1) % $elements.length);
-		    });
-			}
-
-			anim_loop(0); // start with the first element
-
-		});
         </script>
 
 

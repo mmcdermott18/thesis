@@ -15,6 +15,10 @@ html, body {
 #container-print {
 	display: none;
 }
+#container-inside {
+	width: 30%;
+	margin: 0 auto;
+}
 
 .title, .print, .about, .info {
 	width: 300px;
@@ -29,6 +33,23 @@ html, body {
 	text-align: center;
 }
 
+.nav {
+	position: fixed;
+	top: 10px;
+	left: 20px;
+	display: none;
+}
+
+#container-inside .nav {
+	display: block;
+}
+
+h4 {
+	color: white;
+	font-weight: bold;
+	float: left;
+	margin-right: 15px;
+}
 
 h2 {
 	font-size: 36px;
@@ -36,19 +57,50 @@ h2 {
 	color: white;
 }
 
+
 a:link, a:visited {
 	color: white;
 	text-decoration: none;
+	border-bottom: 3px solid white;
 }
 
 a:hover, a:active {
 	color: black;
 	text-decoration: none;
+	border-bottom: 3px solid black;
+}
+
+#container-inside .nav a:link, #container-inside .nav a:visited {
+	color: darkgray;
+	text-decoration: none;
+	border-bottom: 3px solid darkgray;
+}
+
+#container-inside .nav a:hover, #container-inside .nav a:active {
+	color: black;
+	text-decoration: none;
+	border-bottom: 3px solid black;
+}
+
+.text a:link, .text a:visited {
+	color: blue;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.text a:hover, .text a:active {
+	color: blue;
+	text-decoration: underline;
+	border-bottom: none;
 }
 
 
 .kern {
 	letter-spacing: -3px;
+}
+
+.kern-small {
+	letter-spacing: -1px;
 }
 
 .red,
@@ -109,6 +161,50 @@ p {
 span.strike {
 	background: white;
 	color: white;
+}
+
+#container-inside .text span {
+	color: darkgray;
+}
+
+#container-inside span.strike {
+	display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+	#container-inside {
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+	#container-inside {
+		width: 65%;
+		padding-top: 20px;
+	}
+
+	#container-inside .nav {
+	background-color: white;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#container-inside {
+		width: 75%;
+		padding-top: 50px;
+	}
+
+	h1 {
+		font-size: 32px;
+	}
+
+	#container-inside .nav {
+	background-color: white;
+	width: 100%;
+	top: 0;
+}
+
 }
 
 @page {

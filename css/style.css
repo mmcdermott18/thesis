@@ -143,6 +143,10 @@ li.sec {
 	width: 33%;
 	float: left;
 }
+.abstract {
+	width: 95%;
+	margin-right: 5%;
+}
 .whole {
 	width: 100%;
 	float: left;
